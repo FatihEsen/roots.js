@@ -28,7 +28,7 @@ define({
      */
 
     // General file io error strings
-    "GENERIC_ERROR"                     : "(error {0})",
+    "GENERIC_ERROR"                     : "(hata {0})",
     "NOT_FOUND_ERR"                     : "The file/directory could not be found.",
     "NOT_READABLE_ERR"                  : "The file/directory could not be read.",
     "EXCEEDS_MAX_FILE_SIZE"             : "Files larger than {0} MB cannot be opened in {APP_NAME}.",
