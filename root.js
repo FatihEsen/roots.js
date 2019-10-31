@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2012 Adobe Systems Incorporated. All rights reserved.
+ * Copyright (c) 2012 - present Adobe Systems Incorporated. All rights reserved.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -21,11 +21,8 @@
  *
  */
 
-/*jslint vars: true, plusplus: true, devel: true, nomen: true, indent: 4, maxerr: 50 */
-/*global define */
-
 define({
-    
+
     /**
      * Errors
      */
@@ -34,13 +31,19 @@ define({
     "GENERIC_ERROR"                     : "(hata {0})",
     "NOT_FOUND_ERR"                     : "Dosya bulunamadı.",
     "NOT_READABLE_ERR"                  : "Dosya okunabilir değil.",
+    "EXCEEDS_MAX_FILE_SIZE"             : "Files larger than {0} MB cannot be opened in {APP_NAME}.",
     "NO_MODIFICATION_ALLOWED_ERR"       : "Hedef klasör değiştirilemez.",
     "NO_MODIFICATION_ALLOWED_ERR_FILE"  : "Dosyayı değiştirmek için yetkiniz yok.",
     "CONTENTS_MODIFIED_ERR"             : "Dosya {APP_NAME} ile değiştirirldi.",
     "UNSUPPORTED_ENCODING_ERR"          : "Dosya UTF-8 ile kodlanmamış.",
+    "ENCODE_FILE_FAILED_ERR"            : "{APP_NAME} was not able to encode the contents of file.",
+    "DECODE_FILE_FAILED_ERR"            : "{APP_NAME} was not able to decode the contents of file.",
+    "UNSUPPORTED_UTF16_ENCODING_ERR"    : "{APP_NAME} currently doesn't support UTF-16 encoded text files.",
     "FILE_EXISTS_ERR"                   : "Dosya yada klasör mevcut.",
     "FILE"                              : "Dosya",
+    "FILE_TITLE"                        : "File",
     "DIRECTORY"                         : "Klasör",
+    "DIRECTORY_TITLE"                   : "Directory",
     "DIRECTORY_NAMES_LEDE"              : "Klasör İsimleri",
     "FILENAMES_LEDE"                    : "Dosya İsimleri",
     "FILENAME"                          : "Dosya adı",

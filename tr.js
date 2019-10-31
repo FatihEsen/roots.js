@@ -31,19 +31,19 @@ define({
     "GENERIC_ERROR"                     : "(hata {0})",
     "NOT_FOUND_ERR"                     : "The file/directory could not be found.",
     "NOT_READABLE_ERR"                  : "The file/directory could not be read.",
-    "EXCEEDS_MAX_FILE_SIZE"             : "Files larger than {0} MB cannot be opened in {APP_NAME}.",
+
     "NO_MODIFICATION_ALLOWED_ERR"       : "The target directory cannot be modified.",
     "NO_MODIFICATION_ALLOWED_ERR_FILE"  : "The permissions do not allow you to make modifications.",
     "CONTENTS_MODIFIED_ERR"             : "The file has been modified outside of {APP_NAME}.",
     "UNSUPPORTED_ENCODING_ERR"          : "Unknown encoding format",
     "ENCODE_FILE_FAILED_ERR"            : "{APP_NAME} was not able to encode the contents of file.",
     "DECODE_FILE_FAILED_ERR"            : "{APP_NAME} was not able to decode the contents of file.",
-    "UNSUPPORTED_UTF16_ENCODING_ERR"    : "{APP_NAME} currently doesn't support UTF-16 encoded text files.",
+
     "FILE_EXISTS_ERR"                   : "The file or directory already exists.",
     "FILE"                              : "file",
-    "FILE_TITLE"                        : "File",
+
     "DIRECTORY"                         : "directory",
-    "DIRECTORY_TITLE"                   : "Directory",
+
     "DIRECTORY_NAMES_LEDE"              : "Directory names",
     "FILENAMES_LEDE"                    : "Filenames",
     "FILENAME"                          : "Filename",
